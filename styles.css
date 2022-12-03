@@ -17,7 +17,7 @@ button{
 body{
     position: relative;
     background: url('https://img.freepik.com/free-vector/background-seamless-pattern-vector-with-cute-memphis_53876-105506.jpg');
-    background-size: auto;
+    background-size: contain;
 
 }
 input{
@@ -50,6 +50,9 @@ input:focus{
     display: block;
     max-width: 400px;
     margin-left: 20px;
+}
+button:hover{
+    background-color: #3b6602;
 }
 .fnt{
     font-family: Arial, Helvetica, sans-serif;
