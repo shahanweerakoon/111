@@ -10,7 +10,7 @@ function myFunction() {
   const sec = document.createElement("dev");
   sec.classList.add("mystyle")
   sec.id= idv;
-  document.getElementById("text").appendChild(sec);
+  document.body.appendChild(sec);
 
   const para = document.createElement("p");
   para.innerText = inp;
@@ -21,13 +21,3 @@ function myFunction() {
   }
    idv = idv+1;
 }
-
-input.addEventListener("keypress", function(event) {
-  // If the user presses the "Enter" key on the keyboard
-  if (event.key === "Enter") {
-    // Cancel the default action, if needed
-    event.preventDefault();
-    // Trigger the button element with a click
-    document.getElementById("myBtn").click();
-  }
-});

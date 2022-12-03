@@ -12,12 +12,24 @@ button{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1em;
-    background-color: rgb(73, 233, 58);
+    background-color: rgb(145, 255, 0);
+}
+.back{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: url('https://img.freepik.com/free-vector/background-seamless-pattern-vector-with-cute-memphis_53876-105506.jpg');
+    height: 100%;
+    background-size: 100px;
+    z-index: -101000;
+    
+    
 }
 body{
-    position: relative;
-    background: url('https://img.freepik.com/free-vector/background-seamless-pattern-vector-with-cute-memphis_53876-105506.jpg');
-    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    
 
 }
 input{
@@ -26,7 +38,8 @@ input{
     border-style: solid;
     height: 40px;
     width: 400px;
-    padding: 0px 20px;
+    padding: 1px 15px;
+    font-size: 1.2em;
 }
 input:focus{
     border-color: aquamarine;
@@ -41,18 +54,15 @@ input:focus{
     justify-content: center;
 }
 .mystyle{
-    padding: 5px 25px;
-    background: #90db2d;
+    display: block;
+    padding: 10px 15px;
+    background: rgb(168, 145, 43);
     height: auto;
     margin: 5px;
-    border-radius: 30px;
+    border-radius: 0px 30px 30px 30px;
     min-width: 10px;
-    display: block;
     max-width: 400px;
     margin-left: 20px;
-}
-button:hover{
-    background-color: #3b6602;
 }
 .fnt{
     font-family: Arial, Helvetica, sans-serif;
