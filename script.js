@@ -10,7 +10,7 @@ function myFunction() {
   const sec = document.createElement("dev");
   sec.classList.add("mystyle")
   sec.id= idv;
-  document.body.appendChild(sec);
+  document.getElementById("text").appendChild(sec);
 
   const para = document.createElement("p");
   para.innerText = inp;
